@@ -61,7 +61,6 @@ if st.button("🩺 Get Triage Advice"):
         """.format(result), unsafe_allow_html=True)
 
 st.markdown("---")
-st.markdown("Made with ❤️ by [Prejan Raja S](https://github.com/prejan)")
 
 # ------------------- requirements.txt -------------------
 # streamlit
