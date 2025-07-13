@@ -2,7 +2,7 @@
 import google.generativeai as genai
 
 # Replace with your actual Gemini API key
-genai.configure(api_key="YOUR_GEMINI_API_KEY")
+genai.configure(api_key="AIzaSyBSXTCcaqRrqR84EA5GrigxOtkzfJTgaz0")
 model = genai.GenerativeModel('gemini-pro')
 
 def get_triage_assessment(symptoms, avpu_level, vitals):
