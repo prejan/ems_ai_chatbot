@@ -1,8 +1,10 @@
-
 import google.generativeai as genai
+import os
 
-# Replace with your actual Gemini API key
-genai.configure(api_key="AIzaSyBSXTCcaqRrqR84EA5GrigxOtkzfJTgaz0")
+# ✅ Configure Gemini with environment variable (DO NOT hardcode your key)
+genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
+
+# ✅ Use 'gemini-pro' for free-tier or paid-tier Gemini access
 model = genai.GenerativeModel('gemini-pro')
 
 def get_triage_assessment(symptoms, avpu_level, vitals):
