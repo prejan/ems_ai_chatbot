@@ -1,7 +1,5 @@
-
 streamlit
 google-generativeai
 speechrecognition
-pyaudio
-gspread
-oauth2client
+# pyaudio is commented because it's not supported on Streamlit Cloud
+# If you want to test locally, install it separately using pipwin or brew
